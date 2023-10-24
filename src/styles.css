@@ -4,6 +4,8 @@ body{
   background-color: #141414;
   margin: 0;
   padding: 0;
+  font-family: "Poppins regular", serif;
+  color: white;
 }
 
 /* -------------------- Fonts --------------------- */
@@ -54,11 +56,11 @@ body{
 }
 
 .monument-ultrabold{
-  font-family: Monument Regular, monospace;
+  font-family: "Monument Ultrabold", monospace;
 }
 
 .monument-regular{
-  font-family: "Monument Ultrabold", monospace;
+  font-family: "Monument Regular", monospace;
 }
 
 .poppins-regular{
@@ -143,3 +145,13 @@ body{
 .navbar-background-grey{
   background-color: #191919;
 }
+
+/* Inherit colors */
+.inherit-background-color{
+  background-color: inherit;
+}
+
+.inherit-accent-color{
+  color: inherit;
+}
+
