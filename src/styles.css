@@ -5,3 +5,52 @@ body{
   margin: 0;
   padding: 0;
 }
+
+/* -------------------- Fonts --------------------- */
+
+@font-face {
+  font-family: 'Monument Extended';
+  src: url('assets/fonts/Monument/MonumentExtended-Regular.woff2') format('woff2'),
+  url('assets/fonts/Monument/MonumentExtended-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Monument Extended';
+  src: url('assets/fonts/Monument/MonumentExtended-Ultrabold.woff2') format('woff2'),
+  url('assets/fonts/Monument/MonumentExtended-Ultrabold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('assets/fonts/Poppins/Poppins-Regular.woff2') format('woff2'),
+  url('assets/fonts/Poppins/Poppins-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('assets/fonts/Poppins/Poppins-Italic.woff2') format('woff2'),
+  url('assets/fonts/Poppins/Poppins-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('assets/fonts/Poppins/Poppins-Bold.woff2') format('woff2'),
+  url('assets/fonts/Poppins/Poppins-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
