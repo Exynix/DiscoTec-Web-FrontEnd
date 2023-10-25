@@ -1,0 +1,121 @@
+/*-----------------------*/
+.topbar-layout{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 15vh;
+  z-index: 1000;
+  max-width: 100vw;
+
+  /*background-color: inherit;*/
+  display: flex;
+  align-content: center;
+  align-items: center;
+
+  transition: all 0.5s;
+}
+
+.link-menu{
+  border: none;
+  background-color: inherit;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-decoration: none;
+
+  transition: all 0.5s;
+}
+
+.link-menu:hover{
+
+  text-decoration: none;
+  cursor: pointer;
+
+  transition: all 0.3s;
+}
+
+
+/*-----------------------*/
+.topbar-left-section{
+  display: flex;
+  flex: 2;
+  vertical-align: middle;
+  font-size: 1.5rem;
+  align-items: center;
+  align-content: center;
+
+  padding-left: 3%;
+}
+
+/*-----------------------*/
+.topbar-title-section{
+  flex: 1;
+}
+
+.topbar-title{
+  font-family: "Monument Regular", serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 3rem;
+
+}
+
+/*-----------------------*/
+.topbar-right-section{
+  flex: 2;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  padding-right: 3%;
+}
+
+.selector-lenguaje{
+  font-size: 1.5rem;
+  vertical-align: middle;
+}
+
+.selector-lenguaje{
+  vertical-align: middle;
+}
+
+.selector-lenguaje span{
+  font-weight: bold;
+}
+
+/*-----------------------*/
+.boton-login{
+  border-radius: 25px;
+
+  width: 10vw;
+  wrap-option: wrap;
+
+  font-weight: bold;
+  font-size: 1rem;
+  margin-left: 10%;
+
+  transition: all 0.5s;
+}
+
+.boton-login:hover{
+  background-color: inherit;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+
+/*-----------------------*/
+.justify-right{
+  justify-content: right;
+}
+
+.justify-left{
+  justify-content: left;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.justify-space-around{
+  justify-content: space-around;
+}

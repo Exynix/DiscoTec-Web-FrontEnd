@@ -1,0 +1,37 @@
+.boton-login-landing-page{
+
+  border-radius: 25px;
+
+  wrap-option: wrap;
+
+  font-size: 1rem;
+  margin-left: 10%;
+
+  background-color: #141414;
+  border-color: #30FFFF;
+  border-style: solid;
+
+  transition: all 0.5s;
+}
+
+.boton-login-landing-page:hover{
+
+  background-color: #30FFFF;
+  color: black;
+  cursor: pointer;
+
+  transition: all 0.5s;
+}
+
+.menu-icon{
+  transition: all 0.5s;
+  margin-right: 5vw;
+}
+
+.menu-icon:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  margin-right: 5vw;
+
+  transition: all 0.5s;
+}

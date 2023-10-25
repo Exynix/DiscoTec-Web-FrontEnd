@@ -4,4 +4,154 @@ body{
   background-color: #141414;
   margin: 0;
   padding: 0;
+  font-family: "Poppins regular", serif;
+  color: white;
 }
+
+/* -------------------- Fonts --------------------- */
+
+@font-face {
+  font-family: 'Monument Regular';
+  src: url('assets/fonts/Monument/MonumentExtended-Regular.woff2') format('woff2'),
+  url('assets/fonts/Monument/MonumentExtended-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Monument Ultrabold';
+  src: url('assets/fonts/Monument/MonumentExtended-Ultrabold.woff2') format('woff2'),
+  url('assets/fonts/Monument/MonumentExtended-Ultrabold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins regular';
+  src: url('assets/fonts/Poppins/Poppins-Regular.woff2') format('woff2'),
+  url('assets/fonts/Poppins/Poppins-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins italic';
+  src: url('assets/fonts/Poppins/Poppins-Italic.woff2') format('woff2'),
+  url('assets/fonts/Poppins/Poppins-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins bold';
+  src: url('assets/fonts/Poppins/Poppins-Bold.woff2') format('woff2'),
+  url('assets/fonts/Poppins/Poppins-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.monument-ultrabold{
+  font-family: "Monument Ultrabold", monospace;
+}
+
+.monument-regular{
+  font-family: "Monument Regular", monospace;
+}
+
+.poppins-regular{
+  font-family: "Poppins regular", serif;
+}
+
+.poppins-bold{
+  font-family: "Poppins bold", serif;
+}
+
+.poppins-italic{
+  font-family: "Poppins italic", serif;
+}
+
+/* -------------------- Colors --------------------- */
+
+/* Primaries */
+.bright-blue-accent{
+  color: #30FFFF;
+}
+
+.bright-blue-background{
+  background-color: #30FFFF;
+}
+
+.fuchsia-accent{
+  color: #FF128B;
+}
+
+.fuchsia-background{
+  background-color: #FF128B;
+}
+
+.violet-accent{
+  color: #B73ECE;
+}
+
+.violet-background{
+  color: #B73ECE;
+}
+
+.yellow-green-accent{
+  color: #CEDE18;
+}
+
+.yellow-green-background{
+  background-color: #CEDE18;
+}
+
+/* Secondaries */
+.light-violet-accent{
+  color: #C55AD9;
+}
+
+.light-violet-background{
+  background-color: #C55AD9;
+}
+
+/* Neutrals */
+
+.black-accent{
+  color: black;
+}
+
+.black-background{
+  background-color: black;
+}
+
+.white-accent{
+  color: white;
+}
+
+.white-background{
+  background-color: white;
+}
+
+/* Background colors */
+.primary-background-grey{
+  background-color: #141414;
+}
+
+.navbar-background-grey{
+  background-color: #191919;
+}
+
+/* Inherit colors */
+.inherit-background-color{
+  background-color: inherit;
+}
+
+.inherit-accent-color{
+  color: inherit;
+}
+
