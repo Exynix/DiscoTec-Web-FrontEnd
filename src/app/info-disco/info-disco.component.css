@@ -1,0 +1,209 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 0 50px;
+  }
+  
+  .flex-item-left {
+    padding: 20px 10px 30px 10px;
+    flex: 35%;
+  }
+  
+  .flex-item-left *{
+    margin: 10px auto;
+  }
+  
+  .flex-item-left button {
+    padding: 10px 10px;
+    border: 2px solid black;
+  }
+  
+  .flex-item-left img {
+    height: 280px;
+    width: 280px;
+    border: 2px solid black;
+  }
+  
+  .flex-item-right {
+    padding: 20px 0;
+    flex: 65%;
+  }
+  
+  @media (min-width: 800px) {
+    .flex-item-left {
+      padding: 20px 10pxrgb(149, 15, 15)0px;
+      max-width: 600px;
+      flex: 35%;
+    }
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+  
+  .profile_field {
+    height: 30%;
+    padding: inherit;
+    text-align: initial;
+  }
+  
+  .profile_field *{
+    display: inline-block;
+    font-size: 24px;
+  }
+  
+  .type_field {
+    font-weight: 700;
+  }
+  
+  .friend_name {
+    display: grid;
+  }
+
+
+
+
+
+
+
+  .friend {
+    margin: 10px 50px;
+    display: flex;
+    height: 80px;
+}
+
+.friend img {
+    width: auto;
+    height: auto;
+}
+
+.friend_name {
+    height: 100%;
+    justify-items: left;
+}
+
+.friend_name button {
+    margin-left: 20px;
+    font-size: 24px;
+    text-align: start;
+}
+
+.add_friend {
+    padding: 0 50px;
+}
+
+.add_friend button{
+    float: right;
+}
+
+.vote_button {
+    height: 20px !important;
+    width: auto;
+  }
+
+.user_valoration {
+    width: 100%;
+    justify-content: start;
+}
+
+.comentary {
+    font-size: 16px !important;
+    overflow: auto;
+}
+
+.comentary_buttons {
+    width: 50px;
+}
+
+.comentary_buttons div {
+    display: grid;
+}
+
+.comentary_owner {
+    height: 0px;
+}
+
+
+
+
+
+.movimiento-resumen {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #bbb;
+    margin: 20px 10%;
+}
+
+.movimientos-buttons {
+    width: 100%;
+    padding: 20px 10px 10px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.movimientos-buttons button {
+    padding: 10px 50px;
+    background-color: #000;
+    font-weight: 700;
+    color: #FFF;
+    border-radius:  25px;
+}
+
+.movimientos-resumen {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 10px 50px;
+}
+
+.fecha-movimiento {
+    font-size: 24px;
+    text-align: right;
+    padding: 0 30px;
+}
+
+.detalles-movimiento {
+    font-size: 24px;
+    text-align: initial;
+}
+
+
+
+
+
+
+
+.flex-container2 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 10px 100px;
+  }
+  
+  .flex-item-movimientos {
+    flex: 60%;
+    background-color: #ddd;
+  }
+  
+  .flex-item-amigos {
+    flex: 40%;
+    background-color: #ddd;
+    margin-left: 20px;
+  }
+
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 1400px) {
+    .flex-container2 {
+      flex-direction: column;
+    }
+
+    .flex-item-amigos {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+  }
+

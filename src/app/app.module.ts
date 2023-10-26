@@ -15,6 +15,8 @@ import { AdminSignupComponent } from './signup/admin-signup/admin-signup.compone
 import { AdminLoginComponent } from './login/admin-login/admin-login.component';
 import { AppRoutingModule } from './app-routing.module';
 import {RouterLink} from "@angular/router";
+import { BookingComponent } from './booking/booking.component';
+import { InfoDiscoComponent } from './info-disco/info-disco.component';
 
 
 @NgModule({
@@ -31,7 +33,9 @@ import {RouterLink} from "@angular/router";
     SignupComponent,
     UserSignupComponent,
     AdminSignupComponent,
-    AdminLoginComponent
+    AdminLoginComponent,
+    BookingComponent,
+    InfoDiscoComponent
   ],
   imports: [
     BrowserModule,
