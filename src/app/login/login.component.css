@@ -55,3 +55,9 @@
         padding: 0 5%;
     }
   }
+
+/* -------------- Css por all login pages -------------- */
+
+.login-pages-title{
+  font-size: 2.5rem;
+}
