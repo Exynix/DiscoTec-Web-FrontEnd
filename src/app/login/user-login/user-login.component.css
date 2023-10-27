@@ -10,11 +10,8 @@
 /* ---------------------- */
 .left-image-section{
   flex: 6.3;
-  display: flex;
   max-width: 60vw;
 
-  justify-content: center;
-  justify-items: center;
 }
 
 .login-image{
@@ -29,7 +26,14 @@
 
 
 /* ---------------------- */
-.right-image-section{
+.right-form-section{
   flex: 3.7;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  vertical-align: center;
+
+
 
 }
