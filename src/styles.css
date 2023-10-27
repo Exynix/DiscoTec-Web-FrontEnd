@@ -155,3 +155,59 @@ body{
   color: inherit;
 }
 
+/* -------------------- Forms --------------------- */
+.general-form-input{
+
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #30FFFF;
+  font-family: "Poppins regular", serif;
+
+  margin-bottom: 2vh;
+  margin-top: 0.5vh;
+
+  /*display: block;*/
+  /*margin: auto;*/
+
+  transition: all 0.5s;
+
+}
+
+.general-form-input:focus{
+
+  transition: all 0.5s;
+  outline: solid 1px #FF128B;
+
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #FF128B;
+
+}
+
+.general-form-button{
+  border-radius: 25px;
+  border-style: solid;
+  border-color: #30FFFF;
+
+  width: 10vw;
+  wrap-option: wrap;
+  /*display: block;*/
+  /*margin: auto;*/
+  margin-top: 2vh;
+
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: "Poppins regular", serif;
+
+
+  transition: all 0.5s;
+}
+
+.general-form-button:hover{
+  background-color: #30FFFF;
+  color: black;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+
