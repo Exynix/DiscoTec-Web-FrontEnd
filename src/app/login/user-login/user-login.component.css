@@ -10,15 +10,16 @@
 /* ---------------------- */
 .left-image-section{
   flex: 6.3;
+  display: flex;
+  justify-content: space-between;
   max-width: 60vw;
 
 }
 
 .login-image{
   height: 100vh;
-  width: 30%;
+  width: 32%;
 
-  margin-left: 2%;
 
   object-fit: cover;
 
@@ -30,9 +31,12 @@
   flex: 3.7;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
 
-  justify-content: center;
-  vertical-align: center;
+  padding:2%;
+
 
 
 

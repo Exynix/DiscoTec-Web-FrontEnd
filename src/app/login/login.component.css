@@ -56,22 +56,71 @@
     }
   }
 
-/* -------------- Css por all login pages -------------- */
+/* -------------- Css for all login pages -------------- */
+/* Forms */
+.login-form-layout{
+  width: 100%;
+}
 
 .login-pages-title{
-  font-size: 2.5rem;
+  font-size: 2.7vw;
   text-align: center;
   margin-top: 10vh;
   padding-right: 2%;
 }
 
+.login-forms-labels{
+  font-size: 1.5vw;
+  /*display: block;*/
+  /*text-align: left;*/
+}
+
 .login-forms-inputs{
-  width: 80%;
+  width: 90%;
   padding: 2%;
 }
 
-.login-forms-labels{
-  font-size: 1.7rem;
+.login-form-submit-button{
+  display: block;
+  margin: 3vh auto 3vh auto;
+
+}
+
+/* White space */
+.login-pages-white-space{
+  height: 20%;
+}
+/* Admin button */
+.admin-login-button{
+  border-radius: 25px;
+  border-style: solid;
+  border-color: #CEDE18;
+
+  width: 100%;
+  wrap-option: wrap;
   /*display: block;*/
-  /*text-align: left;*/
+  /*margin: auto;*/
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+
+  font-weight: bold;
+  font-size: 2vh;
+  font-family: "Poppins regular", serif;
+
+
+  transition: all 0.5s;
+}
+
+.admin-login-button:hover{
+  background-color: #CEDE18;
+  color: black;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+
+/* Links */
+.login-page-link{
+  text-decoration: underline;
+  margin-top: 3vh;
 }
